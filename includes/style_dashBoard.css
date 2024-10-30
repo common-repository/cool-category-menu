@@ -1,0 +1,75 @@
+:root{
+	--corBordaSide: rgba(0, 115, 170, 0.81);
+}
+
+fieldset{
+    border: 1px solid;
+    padding: 20px;
+	margin-bottom: 20px;
+}
+
+fieldset legend{
+	font-weight: bold;
+}
+
+
+.opcoes li{
+	margin-bottom: 10px;
+}
+
+.opcoes li label{
+	display: block;
+	font-weight: bold;
+}
+
+.opcoes li .color-field{
+	padding: 0px;
+	margin: 0px;
+	border-radius: 0px !important;
+	width: 50px;
+	height: 20px;
+}
+
+.number-field{
+	width: 75px;
+}
+
+.number-field[side*="top"]{
+	border-top: 2px solid var(--corBordaSide) !important;
+}
+
+.number-field[side*="right"]{
+	border-right: 2px solid var(--corBordaSide) !important;
+}
+
+
+.number-field[side*="bottom"]{
+	border-bottom: 2px solid var(--corBordaSide) !important;
+}
+
+
+.number-field[side*="left"]{
+	border-left: 2px solid var(--corBordaSide) !important;
+}
+
+.container{
+	width: 95%;
+	padding: 20px;
+	background: white;
+	border: 1px solid #000;
+}
+
+.container .bloco{
+	width: 45%;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.container .bloco_do_menu{
+	width: 25%;
+	display: inline-block;
+	vertical-align: text-top;
+	padding: 9px 30px;
+}
+
+
